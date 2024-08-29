@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
             signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 //alert("Login Efetuado com sucesso!");
-                sessionStorage.setItem('isLoggedIn', true); // Adicione isso
+                sessionStorage.setItem('isLoggedIn', true); 
                 window.location.href = "Início.html";
             })
             .catch((error) => {
