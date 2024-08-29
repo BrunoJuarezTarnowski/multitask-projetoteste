@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Multitask - Login</title>
+    <link rel="icon" href="/img/logo_da_barra_da_web.png" type="image/png">       
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="/script.mjs" defer></script>
+</head>
+<body>
+<header>
+    <h2 class="Logo">           
+        <img src="/img/logo_cabeça_da_página.png" alt="logo_cabeça_da_página" class="logo"> 
+        </a>   
+      </h2>  
+
+    
+                   
+    </nav>         
+</header>
+<div class="video-background">
+    <video autoplay muted loop class="background-video">
+        <source src="/img/12716-241674181_tiny.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+</div>
+
+<div class="wrapper">
+    <span class="icon-close"><ion-icon name="close-circle"></ion-icon></span>
+
+    <div class="form-box Login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail-sharp"></ion-icon></span>
+                <input type="email" id="email" required>
+                <label>E-mail</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed-sharp"></ion-icon></span>
+                <input type="password" id="password" required>
+                <label>Senha</label>
+            </div> 
+            <div class="remember-forgot">
+                <label><input type="checkbox" required>Lembrar de mim</label>      
+            </div>
+            <button type="submit" id="submit" class="btn">Entrar</button>
+        </form>        
+    </div>
+    <div class="nav-bg"></div>
+    <link rel="stylesheet" href="/styles.css" />   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</div>
+</body>
+</html>
